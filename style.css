@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(213, 248, 213) 
+}
+.meu-nome {
+  border: 2px solid black;
+  text-align: center;
+}
+.container {
+  border: 2px solid black;
+  height: 354px;
+  
+}
+#foto {
+  float: left;
+  width: 350px;
+  padding: 2px;
+  padding-right: 15px;
+  }
+.intro{
+    margin-top: 40px;
+    text-align: center;
+    }
+.intro p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ol li{
+    margin: 2px;
+}
+ol li ul{
+    font-weight: bold;
+    margin: 3px;
+}
