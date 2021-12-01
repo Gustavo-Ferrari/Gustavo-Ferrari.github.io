@@ -1,44 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto 1</title>
-    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-  </head>
 
-  <body>
-    <header id="cabecalho">
-      <nav class="nav-topo">
-        <h1 id="titulo"><ul>
-          <li><a class="links" href="https://github.com/Gustavo-Ferrari" target="_blank"> GitHub</a></li>
-          <li><a class="links" href="https://www.linkedin.com/in/gustavo-ferrari-aa243293/" target="_blank"> Linkedin</li></a>
-          <li><a class="links" href="http://lattes.cnpq.br/7362943609069381" target="_blank">Lattes<li></a>
-        </ul></h1>
-      </nav> 
-    </header>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projeto 1</title>
+  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
 
-    <main>
-      <img id="minha_foto" src="https://scontent.fbat1-1.fna.fbcdn.net/v/t1.6435-9/90020404_10222641474251299_7003748125286334464_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGhGSFHftA1-NmIx42ulXJ0uYgj0BmUvDC5iCPQGZS8MNKfhVLVqIoOhvjBYeoMUJQ&_nc_ohc=zhpEAPuIiDkAX_BSaST&_nc_ht=scontent.fbat1-1.fna&oh=d61f2506944821fd67984d99ff117e3b&oe=61A93D98" alt="foto-rosto">
-      <div class="intro">
-          <h1>Quem sou eu:</h1>
-          <p>Ex-pesquisador. Mestre em Genética e Doutor em Bioquímica pela USP. <br>
-          Estudante de Programação Web na <b>TRYBE</b><i class="em em-rocket" aria-role="presentation" aria-label="ROCKET"></i></p>
+<body>
+  <header id="cabecalho">
+    <nav id="nav-topo">
+      <div><a class="links" href="https://github.com/Gustavo-Ferrari" target="_blank"> GitHub</a></div>
+      <div><a class="links" href="https://www.linkedin.com/in/gustavo-ferrari-aa243293/" target="_blank"> Linkedin </a>
       </div>
-      <div id="depoimento">
-        <aside> <p>"A colaboração entre os alunos é um fator chave no aprendizado na TRYBE. Todos estão dispostos a se ajudar e colaborar para que todos possam evoluir juntos!"</p>
-        </aside>
+      <div class="links" href="http://lattes.cnpq.br/7362943609069381" target="_blank"><a>Lattes
+        </a></div>
+
+      </h1>
+    </nav>
+  </header>
+
+  <main>
+    <section id="intro-container">
+      <div><img id="img"
+          src="https://scontent.fbat1-1.fna.fbcdn.net/v/t1.6435-9/90020404_10222641474251299_7003748125286334464_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGhGSFHftA1-NmIx42ulXJ0uYgj0BmUvDC5iCPQGZS8MNKfhVLVqIoOhvjBYeoMUJQ&_nc_ohc=zhpEAPuIiDkAX_BSaST&_nc_ht=scontent.fbat1-1.fna&oh=d61f2506944821fd67984d99ff117e3b&oe=61A93D98"
+          alt="foto-rosto">
       </div>
-      <br><br><hr>
-        <article id="artigo1">
-          <p id="paragrafo1">
-            Minha jornada na Trybe tem sido muito interessante, para dizer o mínimo. Neste momento, realizando o primeiro projeto na plataforma, começo a perceber que realmente consegui fixar vários conhecimentos. Com certeza, ainda tenho muito a aprender, muita dedicação será necessária para fixar esses aprendizados. Mas com dedicação, vontade de aprender e a ajuda da comunidade da Trybe, com certeza irei adquirir conhecimentos que me propiciarão uma nova carreia em TI.
-          </p>
-        </article>
+      <div id="intro">
+        <h1>Quem sou eu:</h1>
+        <p>Ex-pesquisador. Mestre em Genética e Doutor em Bioquímica pela USP. <br>
+          Estudante de Programação Web na <b>TRYBE</b><i class="em em-rocket" aria-role="presentation"
+            aria-label="ROCKET"></i></p>
+      </div>
+      <aside id="depoimento">
+        <p>"A colaboração entre os alunos é um fator chave no aprendizado na TRYBE. Todos estão dispostos a se ajudar
+          e
+          colaborar para que todos possam evoluir juntos!"</p>
+      </aside>
+    </section>
+    <hr>
+    <section id="content-container">
+      <article id="artigo1">
+        Minha jornada na Trybe tem sido muito interessante, para dizer o mínimo. Neste momento, realizando o primeiro
+        projeto na plataforma, começo a perceber que realmente consegui fixar vários conhecimentos. Com certeza, ainda
+        tenho muito a aprender, muita dedicação será necessária para fixar esses aprendizados. Mas com dedicação,
+        vontade de aprender e a ajuda da comunidade da Trybe, com certeza irei adquirir conhecimentos que me
+        propiciarão uma nova carreia em TI.
+      </article>
       <div id="lista">
-        <ol id="licoes_aprendidas"> <p><b>Lições Aprendidas:</b></p> --
+        <ol id="licoes_aprendidas">
+          <p><b>Lições Aprendidas:</b></p> --
           <li>SoftSkills</li>
           <li>Trabalho em Equipe</li>
           <li>Cooperação</li>
@@ -49,56 +63,55 @@
           <li>Zoom</li>
           <li>Slack</li>
           <li>HTML Semântico</li>
+          <li>JavaScript</li>
+          <li>FlexBox</li>
+          <li>Web Storage</li>
         </ol>
       </div>
-      <section id="tabela">
-          <h2 id="tituloTabela">Minha Trajetória</h2>
-          <table id="conteudoTabela">
-            <tr>
-              <th>Ano</th>
-              <th>Formação</th>
-            </tr>
-            <tr>
-              <td>2010</td>
-              <td>Bacharel em Educação Física</td>
-            </tr>
-            <tr>
-              <td>2016</td>
-              <td>Mestre em Genética</td>
-            </tr>
-            <tr>
-              <td>2021</td>
-              <td>Doutor em Bioquímica</td>
-            </tr>
-            <tr>
-              <td>2021</td>
-              <td>Cursos livres ALURA</td>
-            </tr>
-            <tr>
-              <td>2021</td>
-              <td>Aluno Trybe - Turma XP</td>
-            </tr>
-          </table>
-      </section>
-      <hr>
-      <div id="lista02">
-        <ul id="licoes_a_aprender"> <p id="licoes-p">Lições a aprender:</p><br>
-          <li>HardSkills</li>
-          <li>JavaScript</li>
-          <li>Python</li>
-          <li>Lógica de Programação</li>
-          <li>React</li>
-          <li>Redux</li>
-          <li>API</li>
-          <li>MongoDB</li>
-          <li>Deploy</li>
-          <li>SQL</li>
-        </ul>
-      </div>
-   
-    </main>
-    <footer id="rodape">
-      <p>Página elaborada no projeto Lessons Learned - Trybe - 2021</p>
-    </footer>
+      <article id="tabela">
+        <h2 id="tituloTabela">Minha Trajetória</h2>
+        <table id="conteudoTabela">
+          <tr>
+            <th>Ano</th>
+            <th>Formação</th>
+          </tr>
+          <tr>
+            <td>2010</td>
+            <td>Bacharel em Educação Física</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>Mestre em Genética</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>Doutor em Bioquímica</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>Cursos livres ALURA</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>Aluno Trybe - Turma XP</td>
+          </tr>
+        </table>
+      </article>
+    </section>
+    <hr>
+    <p id="licoes-p">Lições a aprender:</p>
+    <div id="lista02">
+      <div>HardSkills</div>
+      <div>Python</div>
+      <div>React</div>
+      <div>Redux</div>
+      <div>API</div>
+      <div>MongoDB</div>
+      <div>Deploy</div>
+      <div>SQL</div>
+    </div>
 
-    
+  </main>
+  <footer id="rodape">
+    <p>Página elaborada no projeto Lessons Learned - Trybe - 2021</p>
+  </footer>
