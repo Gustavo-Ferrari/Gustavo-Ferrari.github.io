@@ -6,8 +6,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projeto 1</title>
-  <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
+   <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
 <body>
@@ -16,102 +18,74 @@
       <div><a class="links" href="https://github.com/Gustavo-Ferrari" target="_blank"> GitHub</a></div>
       <div><a class="links" href="https://www.linkedin.com/in/gustavo-ferrari-aa243293/" target="_blank"> Linkedin </a>
       </div>
-      <div class="links" href="http://lattes.cnpq.br/7362943609069381" target="_blank"><a>Lattes
-        </a></div>
+      <div><a class="links" href="http://lattes.cnpq.br/7362943609069381" target="_blank"> Lattes </a>
+      </div>
 
       </h1>
     </nav>
   </header>
 
-  <main>
+  <main id="main">
     <section id="intro-container">
-      <div><img id="img"
-          src="https://scontent.fbat1-1.fna.fbcdn.net/v/t1.6435-9/90020404_10222641474251299_7003748125286334464_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=09cbfe&_nc_eui2=AeGhGSFHftA1-NmIx42ulXJ0uYgj0BmUvDC5iCPQGZS8MNKfhVLVqIoOhvjBYeoMUJQ&_nc_ohc=zhpEAPuIiDkAX_BSaST&_nc_ht=scontent.fbat1-1.fna&oh=d61f2506944821fd67984d99ff117e3b&oe=61A93D98"
-          alt="foto-rosto">
+      <div id="imgContainer">
+        <img id="img-rosto"
+        src="Foto rosto.jpg"
+        alt="foto-rosto">
       </div>
-      <div id="intro">
-        <h1>Quem sou eu:</h1>
-        <p>Ex-pesquisador. Mestre em Genética e Doutor em Bioquímica pela USP. <br>
-          Estudante de Programação Web na <b>TRYBE</b><i class="em em-rocket" aria-role="presentation"
-            aria-label="ROCKET"></i></p>
+      <div id="info">
+        <article id="intro">
+          <h1>Gustavo Duarte Ferrari</h1> 
+          <br />  
+          <ul>
+            <li>Bacharel em Educação Física - 2010</li>
+            <li>Mestre em Ciências(Genética) - 2016</li>
+            <li>Doutor em Bioquímica - 2020</li>
+            <li>Aluno <strong>Trybe</strong>🚀 </li>
+          </ul>
+          <img src="./transição de carreira.jpg" alt="transiçãoDeCarreira">
+        </article>
+        <article id="artigo1">
+          Após uma carreira de 10 em pesquisa, decidi mudar totalmente minha atuação profissional, entendendo que a tecnologia faz parte de nossas vidas, tendo um potencial gigantesco de transformação. Aprender a programar, além de uma oportunidade profissional, permite interagir com as pessoas, por meio da tecnologia e melhorar a vida de todos aprimorando a experiência dos usuários.
+        </article>
       </div>
-      <aside id="depoimento">
-        <p>"A colaboração entre os alunos é um fator chave no aprendizado na TRYBE. Todos estão dispostos a se ajudar
-          e
-          colaborar para que todos possam evoluir juntos!"</p>
-      </aside>
-    </section>
-    <hr>
+        <div id="divSetaBaixo">
+          <a href="#content-container"><i class="icon-chevron-sign-down"></i></a>
+        </div>
+      </section>
+    
     <section id="content-container">
-      <article id="artigo1">
-        Minha jornada na Trybe tem sido muito interessante, para dizer o mínimo. Neste momento, realizando o primeiro
-        projeto na plataforma, começo a perceber que realmente consegui fixar vários conhecimentos. Com certeza, ainda
-        tenho muito a aprender, muita dedicação será necessária para fixar esses aprendizados. Mas com dedicação,
-        vontade de aprender e a ajuda da comunidade da Trybe, com certeza irei adquirir conhecimentos que me
-        propiciarão uma nova carreia em TI.
-      </article>
-      <div id="lista">
-        <ol id="licoes_aprendidas">
-          <p><b>Lições Aprendidas:</b></p> --
-          <li>SoftSkills</li>
-          <li>Trabalho em Equipe</li>
-          <li>Cooperação</li>
-          <li>Unix</li>
-          <li>Bash</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Zoom</li>
-          <li>Slack</li>
-          <li>HTML Semântico</li>
-          <li>JavaScript</li>
-          <li>FlexBox</li>
-          <li>Web Storage</li>
-        </ol>
-      </div>
-      <article id="tabela">
-        <h2 id="tituloTabela">Minha Trajetória</h2>
-        <table id="conteudoTabela">
-          <tr>
-            <th>Ano</th>
-            <th>Formação</th>
-          </tr>
-          <tr>
-            <td>2010</td>
-            <td>Bacharel em Educação Física</td>
-          </tr>
-          <tr>
-            <td>2016</td>
-            <td>Mestre em Genética</td>
-          </tr>
-          <tr>
-            <td>2021</td>
-            <td>Doutor em Bioquímica</td>
-          </tr>
-          <tr>
-            <td>2021</td>
-            <td>Cursos livres ALURA</td>
-          </tr>
-          <tr>
-            <td>2021</td>
-            <td>Aluno Trybe - Turma XP</td>
-          </tr>
-        </table>
-      </article>
+      <h1>Ferramentas aprendidas</h1>
+      <ul id='tools_list'>
+        <li class="tools">
+          <img src="/HTML5_1Color_Black.png" alt="html"></img>
+        </li>
+        <li class="tools">
+          <img src="/css_logo.png" alt="CSS"></img>
+        </li>
+        <li class="tools">
+          <img src="/js_logo.png" alt="JavaScript"></img>
+        </li>
+        <li class="tools">
+          <img src="/react_logo.png" alt="React"></img>
+        </li>
+        <li class="tools">
+          <img src="/redux_logo.png" alt="Redux"></img>
+        </li>
+      </ul>    
     </section>
-    <hr>
-    <p id="licoes-p">Lições a aprender:</p>
-    <div id="lista02">
-      <div>HardSkills</div>
-      <div>Python</div>
-      <div>React</div>
-      <div>Redux</div>
-      <div>API</div>
-      <div>MongoDB</div>
-      <div>Deploy</div>
-      <div>SQL</div>
+    <section id='projects_container'>
+      <h1>Projetos</h1>
+      <div id="projects_list">
+        <div>Projeto 1</div>
+        <div>Projeto 2</div>
+        <div>Projeto 3</div>
+        <div>Projeto 4</div>
+      </div>
+    </section>
+    <div id="divSetaCima">
+      <a href="#cabecalho"><i class="icon-chevron-sign-up"></i></a>
     </div>
-
   </main>
   <footer id="rodape">
-    <p>Página elaborada no projeto Lessons Learned - Trybe - 2021</p>
+    <p>Página elaborada no primeiro projeto na Trybe - 2021</p>
   </footer>
