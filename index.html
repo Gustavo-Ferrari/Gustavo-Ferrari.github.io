@@ -5,14 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projeto 1</title>
+  <title>Gustavo Ferrari</title>
    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
   <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
 </head>
 
-<body>
+<body id="body">
   <header id="cabecalho">
     <nav id="nav-topo">
       <div><a class="links" href="https://github.com/Gustavo-Ferrari" target="_blank"> GitHub</a></div>
@@ -20,72 +20,83 @@
       </div>
       <div><a class="links" href="http://lattes.cnpq.br/7362943609069381" target="_blank"> Lattes </a>
       </div>
-
-      </h1>
     </nav>
   </header>
-
   <main id="main">
-    <section id="intro-container">
+    <section id="title">
       <div id="imgContainer">
         <img id="img-rosto"
         src="Foto rosto.jpg"
         alt="foto-rosto">
       </div>
-      <div id="info">
-        <article id="intro">
-          <h1>Gustavo Duarte Ferrari</h1> 
-          <br />  
-          <ul>
-            <li>Bacharel em Educação Física - 2010</li>
-            <li>Mestre em Ciências(Genética) - 2016</li>
-            <li>Doutor em Bioquímica - 2020</li>
-            <li>Aluno <strong>Trybe</strong>🚀 </li>
-          </ul>
-          <img src="transição de carreira.jpg" alt="transiçãoDeCarreira">
-        </article>
-        <article id="artigo1">
-          Após uma carreira de 10 em pesquisa, decidi mudar totalmente minha atuação profissional, entendendo que a tecnologia faz parte de nossas vidas, tendo um potencial gigantesco de transformação. Aprender a programar, além de uma oportunidade profissional, permite interagir com as pessoas, por meio da tecnologia e melhorar a vida de todos aprimorando a experiência dos usuários.
-        </article>
+      <div id="title-wrapper">
+          <h1>Hi, I'm Gustavo Ferrari</h1>
+          <h2>I'm a former researcher entering the IT world!</h2>
+          <p>I'm interrest in an entry level job as a Web Developer</p>
       </div>
-        <div id="divSetaBaixo">
-          <a href="#content-container"><i class="icon-chevron-sign-down"></i></a>
-        </div>
-      </section>
-    
-    <section id="content-container">
-      <h1>Ferramentas aprendidas</h1>
-      <ul id='tools_list'>
-        <li class="tools">
-          <img src="HTML5_1Color_Black.png" alt="html"></img>
-        </li>
-        <li class="tools">
-          <img src="css_logo.png" alt="CSS"></img>
-        </li>
-        <li class="tools">
-          <img src="js_logo.png" alt="JavaScript"></img>
-        </li>
-        <li class="tools">
-          <img src="react_logo.png" alt="React"></img>
-        </li>
-        <li class="tools">
-          <img src="redux_logo.png" alt="Redux"></img>
-        </li>
-      </ul>    
     </section>
+    <hr>
+    <section id="about">
+      <a href="#info">About Me</a>
+      <a href="#projects_container">Projects</a>
+      <a>Contact</a>
+    </section>
+    <hr>
+    <div id="info-wrapper">
+      <section id="info">
+        <h1>About Me</h1>
+      </br>
+        <p>> Former researcher @ the University of São Paulo, Brazil</p>
+        <p>> Master in Genetics</p>
+        <p>> PhD in Biochemistry</p>
+        <p>> Web developer student @TRYBE 🚀 </p>
+        <p>Tecnology was always a big part of my life. I remember my dad in the mid 90's bringing home our first computer, and I was hoocked up from the beginning!</p>
+        <p>My passion for knowledge lead me to persuit the cientific carrier, where I was able to learn so much about life and technology.</p>
+        <p>By influence of my older brother and the blog hype of the early 2000's I've started experience with HTML and fell in love with it.</p>
+        <p>Now, after a long time away from it, I've manage to come back, and the timimg couldn't be better. Amidst the boom of tech start-ups and technological revolution I'm a small fish with big dreams in this vast ocean!</p>
+        <p>Some of the technologies I've been using are:</p>
+        <ul id='tools_list'>
+          <li class="tools">
+            <img src="HTML5_1Color_Black.png" alt="html"></img>
+          </li>
+          <li class="tools">
+            <img src="css_logo.png" alt="CSS"></img>
+          </li>
+          <li class="tools">
+            <img src="js_logo.png" alt="JavaScript"></img>
+          </li>
+          <li class="tools">
+            <img src="react_logo.png" alt="React"></img>
+          </li>
+          <li class="tools">
+            <img src="redux_logo.png" alt="Redux"></img>
+          </li>
+        </ul>    
+      </section>
+    </div>
+
     <section id='projects_container'>
-      <h1>Projetos</h1>
-      <div id="projects_list">
-        <div>Projeto 1</div>
-        <div>Projeto 2</div>
-        <div>Projeto 3</div>
-        <div>Projeto 4</div>
+    <h1>Projects</h1>
+    <p>Under construction</p>
+    <div id="projects_list">
+      <div>
+        <p>HTML + CSS</p> 
       </div>
+      <div>
+        <p>HTML + CSS + JS</p> 
+        <div class="project-img">
+          <a href="https://gustavo-ferrari.github.io/pixel-art/" target="_blank"><img id="pixel" src="Projeto_color_Palet.png" alt="color_palette"></a>
+          <div>Pixel-Art Project</div>
+        </div>
+      </div>  
+        
+        <div>
+        <p>React</p> 
+      </div>
+    </div>
     </section>
     <div id="divSetaCima">
-      <a href="#cabecalho"><i class="icon-chevron-sign-up"></i></a>
+    <a href="#cabecalho"><i class="icon-chevron-sign-up">Back to top</i></a>
     </div>
   </main>
-  <footer id="rodape">
-    <p>Página elaborada no primeiro projeto na Trybe - 2021</p>
-  </footer>
+</body>

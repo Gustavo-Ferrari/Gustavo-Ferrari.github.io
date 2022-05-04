@@ -1,23 +1,19 @@
 * {
-  background-color: rgba(0, 0, 0, 0.027);
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
 }
 
-#main {
-  background-repeat: no-repeat;
-  background-image: url("https://www.pixel4k.com/wp-content/uploads/2020/10/blue-black-white-abstract-tiles-4k_1602442042.jpg");
-  background-position: center;
+#body {
+  background-color: black;
 }
+
 #cabecalho {
-  width: 100%;
   height: auto;
   background-color: #178ff1;
 }
 #nav-topo {
   padding: 1%;
-  width: 100%;
   height: auto;
   display: flex;
   justify-content: space-around;
@@ -38,84 +34,72 @@
   text-decoration: none;
 }
 
-#intro-container {
-  background-position: center;
-  height: 100vh;
-  width: 100%;
-  margin-bottom: 3%;
-}
-
 #imgContainer {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  width: 20%;
+  height: auto;
+  padding: 4em;
 }
 #imgContainer > img {
-  width: 15%;
   height: auto;
   border: 2px solid white;
   border-radius: 50%;
   margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+#title {
+  margin-top: 4em;
+  margin-bottom: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title-wrapper  > h1 {
+  color: white;
+}
+#title-wrapper  > h2 {
+  color: white;
+}
+#title-wrapper  > p {
+  color: gray;
+  align-items: right;
+}
+
+#about {
+  font-size: 24px;
+  display: flex;
+  justify-content: space-around;
+}
+#info-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5em;
+  margin-top: 5em;
 }
 
 #info {
-  margin-left: 2%;
-  margin-right: 15%;
-  display: flex;
-  justify-content: space-between;
-}
-
-#intro {
-  margin-left:15%;
-  font-size: 1.6em;
-  line-height: 15px;
-  width: 50%;
-  height: auto;
-  word-wrap: break-word;
   color: white;
-}
-
-#intro > ul > li {
-  line-height: 200%;
-}
-
-#intro > img {
-  margin-top: 4%;
-  width: 50%;
-  height: auto;
-  border: none;
-  border-radius: 10px;
-}
-
-#artigo1 {
-  display: flex;
-  align-items: center;
-  line-height:1.3em;
-  border: none;
-  border-radius: 10px;
-  box-shadow: 2px 2px black;
-  padding: 1%;
+  font-size: 1.4em;
+  line-height: 1.5em;
   text-align: center;
-  text-size-adjust: auto;
-  font-size: 1.5em;
-  background: #42a0ee8a;
-  color: white;
-  width: 250px;
-  height: auto;
+  border: 2px solid white;
+  padding: 2em;
+  margin-left: 2%;
+  width: 40%;
 }
 
-#divSetaBaixo > a > i {
-  position: absolute;
-  bottom: 8px;
-  right: 16px;
-  font-size: 100px;
-  color: white;
+#info > h1 {
+  color: gray;
 }
 
 #divSetaCima > a > i {
-  position: absolute;
-  top: 1000px;
-  right: 16px;
-  font-size: 100px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 26px;
   color: white;
 }
 
@@ -129,7 +113,7 @@
 }
 
 #tools_list {
-  margin-top: 2%;
+  margin-top: 2em;
   display: flex;
   list-style-type: none;
   justify-content: space-around;
@@ -138,13 +122,17 @@
 .tools {
   border: none;
   border-radius: 50%;
-  box-shadow: 5px 5px green;
-  width: 150px;
+  box-shadow: 2px 2px #178ff1;
+  width: 50px;
   height: auto;
 }
 
-#projects_container > h1 {
+#projects_container > h1, p {
   color: white;
+  text-align: center;
+}
+#projects_container > p {
+  color: gray;
   text-align: center;
 }
 
@@ -157,4 +145,38 @@ display: flex;
 margin-top:2%;
 justify-content: space-around;
 color: white;
+}
+
+#pixel {
+  width: 200px;
+  height: auto;
+}
+
+.project-img {
+  position: relative;
+}
+
+.project-img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+.project-img:hover {
+  cursor: pointer;
+}
+
+.project-img:hover div {
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
 }
