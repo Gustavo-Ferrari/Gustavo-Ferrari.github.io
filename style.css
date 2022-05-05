@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Playfair+Display&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -59,8 +61,11 @@
 
 #title-wrapper  > h1 {
   color: white;
+  font-family: 'Orbitron', sans-serif;
+  color:#178ff1;
 }
 #title-wrapper  > h2 {
+  font-family: 'Playfair Display', serif;
   color: white;
 }
 #title-wrapper  > p {
@@ -92,8 +97,13 @@
 }
 
 #info > h1 {
-  color: gray;
+  font-family: 'Orbitron', sans-serif;
+  color:#178ff1;
 }
+
+#info > p {
+  font-family: 'Playfair Display', serif;
+} 
 
 #divSetaCima > a > i {
   position: fixed;
@@ -127,8 +137,9 @@
   height: auto;
 }
 
-#projects_container > h1, p {
-  color: white;
+#projects_container > h1 {
+  font-family: 'Orbitron', sans-serif;
+  color:#178ff1;
   text-align: center;
 }
 #projects_container > p {
@@ -142,9 +153,15 @@
 
 #projects_list {
 display: flex;
-margin-top:2%;
+margin-top: 2%;
 justify-content: space-around;
 color: white;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin: 2em auto;
 }
 
 #pixel {
@@ -170,8 +187,7 @@ color: white;
  font-weight: bold;
  opacity: 0;
  visibility: hidden;
- -webkit-transition: visibility 0s, opacity 0.5s linear; 
- transition: visibility 0s, opacity 0.5s linear;
+ transition: visibility 0s, opacity 0.3s linear;
 }
 
 .project-img:hover {
@@ -180,7 +196,10 @@ color: white;
 
 .project-img:hover div {
  width: 150px;
+ height: 20px;
  padding: 8px 15px;
  visibility: visible;
  opacity: 0.7; 
+ text-align: center;
+ color: white;
 }
